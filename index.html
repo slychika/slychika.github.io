@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <body>
+   <body>
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+		<script src="javascript/jquery.easing.min.js"></script>
+		<script src="javascript/modernizr.custom.53451.js"></script>
+
+		<!-- Script for Sticky Header-->
+		<script>
+		$(document).ready( function () {
+		
+			// Check the initial Position of the Sticky Header
+			var stickyHeaderTop = $('#navwrapper').offset().top;
+			
+			
+			$(window).scroll(function(){
+			
+					if( $(window).scrollTop() > stickyHeaderTop ) {
+							$('#navwrapper').css({position: 'fixed', top: '0px'});
+							$('#stickyalias').css('display', 'block');
+					} else {
+							$('#navwrapper').css({position: 'static', top: '0px'});
+							$('#stickyalias').css('display', 'none');
+					}
+					
+			});
+			
+		
+			  $('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					  var target = $(this.hash);
+					  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					  if (target.length) {
+						$('html,body').animate({
+						  scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					  }
+					}
+				  });
+			  });
+		</script>
+		<!--End Script for Sticky Header-->
+	
     <meta charset="UTF-8">
     <title>Heather Dykstra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +80,12 @@
 
     </section>
 
-  
+  <script type="text/javascript" src="javascript/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+		</script>
   </body>
 </html>
 
