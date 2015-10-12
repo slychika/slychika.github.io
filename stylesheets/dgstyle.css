@@ -38,19 +38,6 @@
 	display: block;
 	padding: 41px 0px 0px 1px;
 }
-/*
-.dg-wrapper span div{
-	font-style: italic;
-	text-align: center;
-	line-height: 50px;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
-	color: #333;
-	font-size: 16px;
-	width: 100%;
-	bottom: -55px;
-	display: none;
-	position: absolute;
-}*/
 
 .dg-wrapper span.dg-center div{
 	display: block;
@@ -70,7 +57,7 @@
 	width: 24px;
 	height: 25px;
 	opacity: 0.8;
-	background: transparent url(../images/officersslider/arrows2.png) no-repeat top left;
+	background: transparent url(../images/arrows.png) no-repeat top left;
 }
 .dg-container nav span:hover{
 	opacity: 1;
