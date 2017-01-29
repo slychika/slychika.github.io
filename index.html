@@ -1,223 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head profile="http://gmpg.org/xfn/11">
-		<meta charset="UTF-8">
 		<title>
-			Heather Dykstra | Software Developer 
+			Heather Dykstra | Developer 
 		</title>
-		<link rel="stylesheet" href="stylesheets/dgstyle.css" />
-		<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
-    	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    	<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
 	</head>
 	
-	<body>
-	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-		<script src="javascript/jquery.easing.min.js"></script>
-		<script src="javascript/modernizr.custom.53451.js"></script>
-
-		<!-- Script for Sticky Header-->
-		<script>
-		$(document).ready( function () {
-			// Check the initial Position of the Sticky Header
-			var stickyHeaderTop = $('#navwrapper').offset().top;
-			$(window).scroll(function(){
-				if( $(window).scrollTop() > stickyHeaderTop ) {
-					$('#navwrapper').css({position: 'fixed', top: '0px'});
-					$('#stickyalias').css('display', 'block');
-				} 
-				else {
-					$('#navwrapper').css({position: 'static', top: '0px'});
-					$('#stickyalias').css('display', 'none');
-				}		
-			});
-			$('a[href*=#]:not([href=#])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					if (target.length) {
-						$('html,body').animate({ scrollTop: target.offset().top}, 1000);
-						return false;
-					}
-				}
-			});
-		});
-		</script>
-		<!--End Script for Sticky Header-->
-	
-		<!--Begin Content-->	
-    	
-    	<section id="header" class="page-header">
-    		<h1 class="project-name">Heather Dykstra</h1>
-    		<h2 class="project-tagline">Software Engineer, Game Programmer, Advocate and Mentor.</h2>
+	<body>    	
+    	<section id="header">
+    		<h1>Heather Dykstra</h1>
+    		<h2>Developer, Advocate and Mentor.</h2>
     	</section>
-    		<!--<div class="skiplink">
-				<a href="#page">Skip to Content</a>
-			</div>-->
-			
-			<div id="navwrapper">
-				<div id="navigation">
-					<div class="menu">
-						<ul>
-							<li>
-								<a href="index.html#header">
-									Home</a>
-							</li>
-							<li>
-								<a href="index.html#section2">
-									About</a>
-							</li>
-							<li>
-								<a href="index.html#section3">
-									Resume</a>
-							</li>
-							<li>
-								<a href="index.html#section4">
-									Projects</a>
-							</li>
-							<li>
-								<a href="index.html#section5">
-									Contact</a>
-							</li>
-						</ul>
-					</div>
+		<section id="About">
+			<h2>About</h2>
+				<div>
+					<p> Hi there! It is very nice to meet you! </p>
+
+					<p>I graduated for the University of Colorado at Boulder in May of 2015, Where I receieved a Bachelor's of Science in Computer Science. While in school, I lead the <a target="_blank" href="wic.cs.colorado.edu">Women in Computing Group </a> for 2 years, and worked hard to ensure equality for every technical woman on campus.</p>
+
+					<p>In my career at <a target="_blank" href="www.zayo.com">Zayo Group</a> I work as a Development Operations Specialist, where I take my experience in leadership to bring new insights to the company. My current project is to convert our classic Salesforce environment to the Lightning Experience. The project involves project management, refactoring of Apex and VisualForce components, creation of all new Lightning componets, education of our developers on development best practices and cleaning up technical debt in our enviorment. My past projects included development of a development asset tracking system, procurment of development tools that help increase developer productivity, and management of teams working to expidite the development process.</p>
+
+					<p>I spend much of my time outside of work volunteering my knowledge to help others. I help select scholars for Greenhouse Scholars and NCWIT High School and College Scholarships and mentor many community members through Zayo's Coffee Club and Zayo's Galvanize Mentorship programs.</p>
+
+					<p>I'm not all work and no play though, I greatly enjoy spending my free time at the gym, reading, writing and playing games video games until my wrists hurt. </p>
 				</div>
 			</div>
-			
-			
-			<!--Required to make sticky navigation -->
-			<div id="stickyalias"></div>
+		</section>
 		
-			<!--Begin About Section-->
-			<section id="section2" class="padded" >
-				<h2 class="title">About</h2>
-				<div id="about-div" class="center">
-					<div class="image-padding">
-						<img src="../images/heather.jpg">
-					</div>
-					<div class="about-text">
-						<p> Hi there! It is very nice to meet you!</p>
+		<section id="Resume">
+			<a href=".../files/resume.pdf" target="_blank">Resume</a>
+		</section>
 
- 						<p>I graduated for the University of Colorado at Boulder in May of 2015. My degree is a Bachelor's of  Science in Computer Science. While in school, I was very busy. I lead the <a target="_blank" href="wic.cs.colorado.edu">Women in Computing Group </a> for 2 years, and worked hard to ensure equality for every technical woman on campus. I also discovered a love for Video Games, when a friend introduced me to the Kingdom Hearts series and the wonder of Steam.</p>
-
- 						<p>Now, I continue to work hard as an advocate for diversity in Computer Science. I volunteer with  the <a target="_blank" href="http://www.coderdojoboulder.com/">Boulder CoderDojo</a> and the <a target="_blank" href="http://innovation.svvsd.org/">Innovation Center</a> to introduce children of all ages to computers  and technology. I have continued my partnership with the Women in Computing Group at CU and have positioned myself as an industry consultant and mentor to the team. I am also working as a Jr. Application Developer at <a target="_blank" href="www.zayo.com">Zayo Group</a>. I take my experience in leadership to bring new insights to the company, and am currently working on a system to assist in developer management within our Salesforce environment.</p>
-
-						<p>When I'm not being an advocate or working, I spend my time at the gym, engineering games, reading, writing music, making online videos and blogs, working on story ideas with friends and playing games until my wrists hurt.</p>
-					</div>
-				</div>
-			</section>
-			<!--End About Section -->
-	
-			<!--Begin resume Section -->
-			<section id="section3" class="padded">
-					<h2 class="title">Resume</h2>
-					<h3>What I've done</h3>
-					<h3>Work Experience
-Jr Application Developer, Zayo Group
-January 2015 - Present
-Led an Intern team working with Salesforce Lighting on a mobile application and Improved tracking of work by in the development organization through workflow optimization.
-Learning Assistant, CU Department of Computer Science 
-August 2014 - December 2014
-Tutored students on basic computer science and mathematics concepts and Coordinated hours and schedules for the Learning Assistant Team.
-Software Intern, Seagate Technology 
-May 2014 - August 2014
-Interacted with users and the team to develop an extensible queue interface with C++ and SQLite and designed and refactored a systray application to run Python scripts automatically.
-Help Desk Technician, Leeds Technology Services 
-August 2013 - March 2014
-Rebuilt and repaired computers on a daily basis according to University standards and provided application and hardware support for Leeds Staff and PhD Students.
-Software Development Intern, Terumo BCT
-May 2013 - August 2013
-Designed and developed a web-based software test tool in C# and .NET and reviewed and enhanced requirements in conjunction with current users.
-Volunteering
-Mentor, Boulder CoderDojo
-September 2014 - Present
-​I am a mentor for the CoderDojo in Boulder CO. We are a volunteer non-profit teaching youth ages 7-17 web, game and app development.
-Mentor, Innovation Center Computer Science Leadership Team
-April 2015 - Present
-Organized a structure where passionate high school students teach in middle and elementary school clubs. I am also the main point of contact for the students when they have questions.
-Skills
-Development
-Team Management
-Advocacy
-Education
-University of Colorado at Boulder
-BS in Computer Science - Focus: Software Engineering
-May 2015
-</h3>
-			</section>
-			<!-- End resume Section-->
-     
-
-			<!--Begin project Section-->
-			<section id="section4" class="padded">
-			<h2 class="title">Projects</h2>
-						<span><img src="../images/stillwaters.jpeg">
-							<div class="staff-info">
-								<h3>Still Waters</h3>
-								<h4>October 2015 - Present</h4>
-								<p class="description">It's decided. Sai's life is utterly boring. Transform the mundane into so much more through the pages of Sai's life.
-
-I'm working on a dynamic Visual Novel using the ren'py engine. I am trying my hands at total game design, attempting my own original compositions of the story, music and art. I am using this as a way to understand a full game cycle, so that when presented work with a team on other projects, I may better understand their needs.</p>
-							</div> 
-						</span>
-                        
-						<span><img src="../images/wayhaven.jpg">
-							<div class="staff-info">
-								<h3>Wayhaven</h3>
-								<h4>April 2015 - Present</h4>
-								<p class="description"> Imagine a place where worlds, stories and communities combine; Wayhaven is your storytelling platform. 
-
-Andrea Sassu and I are working on a platform that allows for dynamic online storytelling. Our focus is to allow creators of digital content to simply share their worlds with a community of engaged internet citizens.  </p>
-							</div> 
-						</span>
-                        
-						<span><img src="../images/graviteam.png">
-							<div class="staff-info">
-								<h3>GraviTeam</h3>
-								<h4>August 2014 - May 2015</h4>
-								<p class="description"> A website that allows scientists to work together using features including a timeline, 3D model, whiteboard, message board, activity creation, and project management. 
-
-My Senior Design Project at CU Boulder. We worked with a sponsor from JPL to create a prototype scientific team management application.​
-http://graviteam.meteor.com</p>
-							</div> 
-						</span>
-                        
-					</div>
-					
-				</section>
-			</section>
-			<!--End project Section-->
-
-			<!--Begin contact Section -->
-			<section id="section5" class="padded">
-					<h2 class="title">Contact</h2>
-					<h3>Email me:
-​missheatherlaree@gmail.com
-
-Find me on the internet:
-GitHub, Linkedin, Twitter, Facebook, Youtube
-
-Game with me:
-Steam/Xbox Live: slytherinchika
-Blizzard: slychika#1302
-Playstation/Nintendo: slychika</h3>
-					<h3></h3>
-			</section>
-			<!-- End contact Section-->
-			
-    <footer class="site-footer">
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-    </footer>
-
-    <script type="text/javascript" src="javascript/jquery.gallery.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('#dg-container').gallery();
-			});
-		</script>
+		<section id="Contact">
+			<h2>Contact</h2>
+				<a target="_blank" href="mailto:missheatherlaree@gmail.com">
+					<img src="../images/email.png">
+				</a>
+				<a target="_blank" href="https://github.com/slychika">
+					<img src="../images/github.png">
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/heatherdykstra">
+					<img src="../images/linkedin.png">
+				</a>
+				<a target="_blank" href="https://twitter.com/SlytherinChika">
+					<img src="../images/twitter.png">
+				</a>
+				<a target="_blank" href="https://www.facebook.com/SlytherinChika">
+					<img src="../images/facebook.png">
+				</a>
+				<a target="_blank" href="https://www.instagram.com/slychika/">
+					<img src="../images/instagram.png">
+				</a> 	
+		</section>
   </body>
 </html>
