@@ -6,5 +6,7 @@ Check it out here:
 slychika.github.io
 
 TO DO:
+
 [ ] Update all content 
+
 [ ] get a better domain
