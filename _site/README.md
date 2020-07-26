@@ -4,8 +4,3 @@ different frameworks, but is currently based on Jekyll.
 
 Check it out here:
 slychika.github.io
-
-TO DO:
-
-- [ ] Update all content 
-- [ ] Get a better domain
