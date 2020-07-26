@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Heather Dykstra
+title: Heather Storm
 email: missheatherlaree@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Developer by training, advocate by purpose. 
-  Developer Evangelist at Salesforce. 
+  Developer Program Manager at Salesforce. 
   All thoughts are my own.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: SlytherinChika
+twitter_username: Iamheatherstorm
 github_username: slychika
 
 # Build settings
